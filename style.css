@@ -1,0 +1,743 @@
+header, nav, main, aside, article, section, figure, form, footer{
+  border-radius:5px;
+}
+
+body {
+  font-family: Roboto;
+  margin:0;
+  padding:0;
+  background: #FFFFFF;
+}
+
+header{
+  grid-area: header;
+  background: #F46F3E;
+}
+
+header h1 {
+  font-size:5vw;
+  color: #000000;
+  font-family: Roboto;
+  text-shadow: 2px 2px 5px #F2C36B;
+  margin: 0;
+}
+
+.headerpic {
+  grid-area: headerpic;
+  padding: 5px;
+  height: 10vmax;
+}
+
+.headertext {
+  grid-area: headertext;
+  text-align: center;
+}
+
+.headerwrapper {
+  display: grid;
+  background: #F46F3E;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: 25% auto;
+  grid-template-areas:
+  "headerpic headertext"
+}
+
+.number {
+  font-weight: normal;
+}
+
+nav {
+  background: #01A0E4;
+  grid-area: nav;
+}
+
+nav a{
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+}
+
+nav a:hover {
+    text-shadow: 2px 2px 5px #F46F3E;
+}
+
+nav li{
+  list-style-type:none;
+  font-size:1.5em;
+  text-align: center;
+  padding: 10px;
+}
+
+main {
+  grid-area: main;
+  background: #F2C36B;
+}
+
+main h1 {
+  text-align: center;
+}
+
+main h2 {
+  text-align: center;
+}
+
+main p {
+    color:#000000;
+    padding:1% 2%;
+    font-size:1em;
+}
+
+.mainp {
+  line-height: 1.5;
+}
+
+.articlepic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+}
+
+.plumbingtext {
+  line-height: 1.5;
+}
+
+.plumbingpic {
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 15px;
+}
+
+.ac {
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 15px;
+}
+
+.basic {
+  grid-area: basic;
+}
+
+.handyman {
+  grid-area: handyman;
+}
+
+.system {
+  grid-area: system;
+}
+
+main h3 {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.officetext {
+  line-height: 1.5;
+}
+
+figure {
+  grid-area: figure;
+  margin: 0;
+  background: #F2C36B;
+}
+
+figure h2 {
+  text-align: center;
+}
+
+figure p {
+  text-align: center;
+}
+
+.figure1 {
+  grid-area: figure1;
+  background: #F2C36B;
+}
+
+.figure2 {
+  grid-area: figure2;
+  background: #F2C36B;
+}
+
+.mcdonald {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.goodwill {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section {
+  grid-area: section;
+  background: #F2C36B;
+}
+
+section li {
+  color: #000000;
+  font-size: 1.25em;
+  padding: 10px 0;
+}
+
+section h2 {
+  text-align: center;
+}
+
+section a {
+  color: #000000;
+}
+
+section a:hover {
+    text-shadow: 2px 2px 5px #F46F3E;
+}
+
+.serviceplanstext {
+  grid-area: serviceplanstext;
+  line-height: 1.5;
+  padding-right: 20px;
+  padding-top: 30px;
+}
+
+.hvac {
+  grid-area: hvac;
+  max-height: 50%;
+  margin: 0;
+  padding-top: 90px;
+  padding-left: 30px;
+}
+
+.joepicture {
+  grid-area: joepicture;
+  margin: 0;
+  padding: 40px
+}
+
+.servicestext {
+  grid-area: servicestext;
+  padding-right: 35px;
+  padding-top: 45px;
+}
+
+article {
+  grid-area: article;
+}
+
+.wrenchpic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.joetext {
+  text-align: center;
+}
+
+.main {
+  grid-area: main;
+  background-color: #F2C36B;
+}
+
+.joegivesback {
+  grid-area: joegivesback;
+  background-color: #F2C36B;
+}
+
+.contactjoe {
+  grid-area: contactjoe;
+  background-color: #F2C36B;
+}
+
+.ourcompany {
+  grid-area: ourcompany;
+  background-color: #F2C36B;
+}
+
+.listservices {
+  line-height: 2.5;
+}
+
+article h2 {
+  color: #000000;
+  text-align: center;
+}
+
+article p {
+  color: #000000;
+  padding:1% 2%;
+  line-height: 1.5;
+}
+
+aside {
+  background-color: #F2C36B;
+  grid-area: aside;
+}
+
+aside li {
+  color: #000000;
+  font-size: 1.25em;
+  padding: 10px 0;
+}
+
+aside a {
+  color: #000000;
+}
+
+aside a:hover {
+  text-shadow: 2px 2px 5px #F46F3E;
+}
+
+aside h2 {
+  color: #000000;
+  text-align: center;
+}
+
+form {
+  background-color: #F46F3E;
+  width:90%;
+  margin:auto;
+  padding:10px;
+  padding-bottom: 20px;
+}
+
+footer {
+  grid-area: footer;
+  text-align: center;
+  background:#01A0E4;
+}
+
+
+/*---------------------------Mobile Layout----------------------------*/
+.container1 { /*for index.html*/
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap:.5em;
+  grid-template-areas:
+    "nav"
+    "header"
+    "main"
+    "joegivesback"
+    "contactjoe"
+    "aside"
+    "footer";
+    }
+    
+.container2 { /*for about.html*/
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap:.5em;
+  grid-template-areas:
+    "nav"
+    "header"
+    "ourcompany"
+    "aside"
+    "joegivesback"
+    "footer";
+    }
+    
+.container3 { /*for blog.html*/
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap:.5em;
+  grid-template-areas:
+    "nav"
+    "header"
+    "main"
+    "figure1"
+    "figure2"
+    "footer";
+}
+
+.container4 {
+  display:grid;
+  grid-template-columns: auto;
+  grid-gap:.5em;
+  grid-template-areas:
+  "nav"
+  "header"
+  "main"
+  "services"
+  "serviceplans"
+  "footer";
+}
+
+.container5 { /*for plumbing.html*/
+  display:grid;
+  grid-gap:.5em;
+  grid-template-columns: auto;
+  grid-template-areas:
+    "nav"
+    "header"
+    "main"
+    "aside"
+    "footer";
+}
+
+.container6 { /*for plans.html*/
+  display:grid;
+  grid-gap:.5em;
+  grid-template-columns: auto;
+  grid-template-areas:
+    "nav"
+    "header"
+    "main"
+    "basic"
+    "handyman"
+    "system"
+    "joegivesback"
+    "footer";
+}
+
+.container7 { /*for contact.html*/
+  display:grid;
+  grid-gap:.5em;
+  grid-template-columns: auto;
+  grid-template-areas:
+    "nav"
+    "header"
+    "main"
+    "footer";
+}
+
+.services {
+  display: grid;
+  grid-area: services;
+  grid-template-columns: auto;
+  grid-template-areas:
+  "joepicture"
+  "servicestext";
+}
+
+.serviceplans {
+  display: grid;
+  grid-area: serviceplans;
+  grid-template-columns: auto;
+  grid-template-areas:
+  "hvac"
+  "serviceplanstext"
+}
+
+
+.navwrapper {
+  display:grid;
+  grid-template-columns: 100%;
+  grid-template-areas:
+  "first"
+  "second"
+  "third"
+  "fourth"
+  "sixth";
+}
+
+.first {
+  grid-area:first;
+}
+
+.second {
+  grid-area:second;
+}
+
+.third {
+  grid-area: third;
+}
+
+.fourth {
+  grid-area: fourth;
+}
+
+.sixth {
+  grid-area: sixth;
+}
+
+/*This stuff is for the hamburger menu*/
+.toggleNav {
+    display:grid; /*This is what allows the hamburger icon and "Menu" to display*/
+    text-align:center;
+    font-size:1.5em;
+    font-weight:bold;
+    padding:10px;
+    }
+
+#flex-nav ul {
+    display: none; /*jQuery toggles the nav from to this class to the .open when clicked*/
+    text-align:center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+ 
+#flex-nav ul.open { /*.open is the class that gets toggled when clicked (with help from the jQuery code)*/
+    display:grid;
+    }
+    
+#flex-nav li {
+    padding-left:10px;
+    padding-top:10px;
+    }
+
+
+/*-----------------------Tablet Media Query------------------------*/
+@media only screen and (min-width: 480px)  {
+.container1 { /*for index.html*/
+  display:grid;
+  grid-gap:.5em;
+  grid-template-columns: 75% 25%;
+  grid-template-areas:
+    "nav nav"
+    "header header"
+    "main aside"
+    "joegivesback aside"
+    "contactjoe aside"
+    "footer footer";
+    }
+    
+.container2 { /*for about.html*/
+  display: grid;
+  grid-template-columns: 75% 25%;
+  grid-gap:.5em;
+  grid-template-areas:
+    "nav nav"
+    "header header"
+    "ourcompany aside"
+    "joegivesback aside"
+    "footer footer";
+    }
+    
+.container3 { /*for blog.html*/
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap:.5em;
+  grid-template-areas:
+    "nav nav"
+    "header header"
+    "main main"
+    "figure1 figure1"
+    "figure2 figure2"
+    "footer footer";
+}
+
+.container4 {
+  display:grid;
+  grid-gap:.5em;
+  grid-template-columns: auto;
+  grid-template-areas:
+  "nav"
+  "header"
+  "main"
+  "services"
+  "serviceplans"
+  "footer";
+}
+
+.container5 { /*for plumbing.html*/
+  display:grid;
+  grid-gap:.5em;
+  grid-template-columns: 75% 25%;
+  grid-template-areas:
+    "nav nav"
+    "header header"
+    "main aside"
+    "footer footer";
+}
+
+.container6 { /*for plans.html*/
+  display:grid;
+  grid-gap:.5em;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-areas:
+    "nav nav nav"
+    "header header header"
+    "main main main"
+    "basic handyman system"
+    "joegivesback joegivesback joegivesback"
+    "footer footer footer";
+}
+
+.container7 { /*for contact.html*/
+  display:grid;
+  grid-gap:.5em;
+  grid-template-columns: auto auto;
+  grid-template-areas:
+    "nav nav"
+    "header header"
+    "main main"
+    "footer footer";
+}
+
+.services {
+  display: grid;
+  grid-area: services;
+  grid-template-columns: auto 1fr;
+  grid-template-areas:
+  "joepicture servicestext";
+}
+
+.serviceplans {
+  display: grid;
+  grid-area: serviceplans;
+  grid-template-columns: auto 1fr;
+  grid-template-areas:
+  "hvac serviceplanstext"
+}
+
+
+.navwrapper {
+  display:grid;
+  grid-template-columns: auto;
+  grid-template-areas:
+  "first second third fourth sixth";
+}
+
+.first {
+  grid-area:first;
+}
+
+.second {
+  grid-area:second;
+}
+
+.third {
+  grid-area: third;
+}
+
+.fourth {
+  grid-area: fourth;
+}
+
+.sixth {
+  grid-area: sixth;
+}
+
+/* Below will change from hamburger menu to side navigation*/
+  
+.toggleNav {
+    display: none; /*Makes the hamburger icon with the word "Menu" to disappear at this screen size*/
+  }
+  
+#flex-nav ul {
+    display:grid;
+    text-align:left;
+  }
+
+#flex-nav li {
+    padding-left:10px;
+    padding-top:10px;
+  }
+
+}
+
+/*-----------------------Desktop Media Query------------------------*/
+@media only screen and (min-width: 960px)  {
+
+.container1 { /*for index.html*/
+  display:grid;
+  grid-gap:.5em;
+  grid-template-columns: 75% 25%;
+  grid-template-areas:
+    "nav nav"
+    "header header"
+    "main aside"
+    "joegivesback aside"
+    "contactjoe aside"
+    "footer footer";
+    }
+    
+.container2 { /*for about.html*/
+  display: grid;
+  grid-template-columns: 75% 25%;
+  grid-gap:.5em;
+  grid-template-areas:
+    "nav nav"
+    "header header"
+    "ourcompany aside"
+    "joegivesback aside"
+    "footer footer";
+    }
+    
+.container3 { /*for blog.html*/
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap:.5em;
+  grid-template-areas:
+    "nav nav"
+    "header header"
+    "main main"
+    "figure1 figure1"
+    "figure2 figure2"
+    "footer footer";
+}
+
+.container4 {
+  display:grid;
+  grid-gap:.5em;
+  grid-template-columns: 50% 50%;
+  grid-template-areas:
+  "nav nav"
+  "header header"
+  "main main"
+  "services serviceplans"
+  "footer footer";
+}
+
+.container5 { /*for plumbing.html*/
+  display:grid;
+  grid-gap:.5em;
+  grid-template-columns: 75% 25%;
+  grid-template-areas:
+    "nav nav"
+    "header header"
+    "main aside"
+    "main aside"
+    "footer footer";
+}
+
+.container6 { /*for plans.html*/
+  display:grid;
+  grid-gap:.5em;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-areas:
+    "nav nav nav"
+    "header header header"
+    "main main main"
+    "basic handyman system"
+    "joegivesback joegivesback joegivesback"
+    "footer footer footer";
+}
+
+.container7 { /*for contact.html*/
+  display:grid;
+  grid-gap:.5em;
+  grid-template-columns: auto auto;
+  grid-template-areas:
+    "nav nav"
+    "header header"
+    "main main"
+    "footer footer";
+}
+
+.services {
+  display: grid;
+  grid-area: services;
+  grid-template-columns: auto 1fr;
+  grid-template-areas:
+  "joepicture servicestext";
+}
+
+.serviceplans {
+  display: grid;
+  grid-area: serviceplans;
+  grid-template-columns: auto 1fr;
+  grid-template-areas:
+  "hvac serviceplanstext"
+}
+
+}

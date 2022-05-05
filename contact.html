@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Joe the Plumber : Full-service Plumbing & Heating</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="code.js"></script>
+    <link rel="icon" href="joeface.png">
+</head>
+ <body>
+  <div class="container7">
+    <nav id="flex-nav">
+        <a href="#" class="toggleNav">&#9776; Menu</a> <!--This will only be visible less than 480px wide-->
+        <ul class="navwrapper">
+        <li class="first"><a href="index.html">Home</a></li>
+        <li class="second"><a href="about.html">About</a></li>
+        <li class="third"><a href="services.html">Services</a></li>
+        <li class="fourth"><a href="plans.html">Plans</a></li>
+        <li class="sixth"><a href="contact.html">Contact</a></li>
+       </ul>
+    </nav>
+    <header class="headerwrapper">
+        <img class="headerpic" src="Joe_the_Plumber_LOGO_2.png" alt="website logo">
+        <div class="headertext">
+          <h1>Joe the Plumber</h1>
+        </div>
+    </header>
+    <main class="officetext">
+      <h2>Contact Us</h2>
+      <p>The quickest way to schedule a service appiontment is to contact our office:
+      <br>
+      Email: contact@joetheplumber.com
+      <br>
+      Phone: (888) 555-HEAT
+      <br>
+      Fax:   (957) 555-HEAT
+      <br>
+      Mail:  5255 Warwick Avenue Albuquerque, New Mexico 87101
+      <br>
+      Or, complete the form below and we will contact you within 24 hours.
+      </p>
+    <form action="https://formspree.io/f/mqkngnoo" method="POST">
+      <div>
+          Name:<br><input type="text" size="30" placeholder="Jane Doe" autofocus required name="fullname" aria-label="Full Name"><br>
+          Phone:<br><input type="tel" size="30" name="phone" aria-label="Cell Phone Number"><br>
+          Email:<br><input type="email" size="30" required name="email" aria-label="Email Address"><br>
+          Service Needed:<br><input type="text" size="30" list="service" name="service" aria-label="Service Needed"><br>
+          <datalist id="service">
+            <option value="Plumbing"></option>
+            <option value="Heating"></option>
+            <option value="Cooling"></option>
+            <option value="Solar Heating"></option>
+            <option value="Other"></option>
+          </datalist>
+        <input type= "submit" value="Submit" class="button" aria-label="Submit Button">
+      </div>
+    </form>
+    <br>
+    </main>
+    <footer>
+        <p>&copy; <time datetime="2022"> 2022. </time> Joe the Plumber, Inc. All Rights Reserved.</p>
+        <p>5255 Warwick Avenue Albuquerque, New Mexico 87101</p>
+        <p>Phone: (888) 555-HEAT Fax: (957) 555-HEAT</p>
+        <p>contact@joetheplumber.com</p>
+    </footer>
+  </div>
+</body>
+</html>
