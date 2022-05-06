@@ -2,6 +2,10 @@ header, nav, main, aside, article, section, figure, form, footer{
   border-radius:5px;
 }
 
+img {
+  max-width: 100%;
+}
+
 body {
   font-family: Roboto;
   margin:0;
